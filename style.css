@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+body {
+    padding-top: 10px;
+    font-family: "Gabarito", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: solid black 1px;
+}
+
+.navbar__s1__title {
+    color: #A435f0;
+    padding-left: 10px;
+}
+
+.navbar__s2 {
+    display: flex;
+    align-items: center;
+    border: solid black 1px;
+    border-radius: 30px;
+    padding: 10px;
+    width: 65%;
+    gap: 10px;
+}
+
+.navbar__s2__input {
+    width: 80%;
+    font-size: 16px;
+}
+
+.navbar__s2__input:focus {
+    outline: none;
+}
+
+.navbar__s3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right: 10px;
+}
+
+.categories {
+    display: flex;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    justify-content: space-around;
+}
+
+.categories p {
+    background-color: #A435f0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.sale-image img {
+    width: 100%;
+}
+
+.recommend {
+    padding: 10px;
+}
+
+.recommend__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.course-card {
+    width: 300px;
+}
+
+.course-card img {
+    height: 50%;
+    width: 100%;
+}
+
+.topics {
+    padding: 10px;
+}
+
+.topics__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.topics__container p {
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.popular {
+    padding: 10px;
+}
+
+
+.popular__container {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.footer {
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+
+.footer__one {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__two {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-content: center;
+}
+
+.footer__one p{
+    margin: 20px;
+}
+
